@@ -65,8 +65,6 @@ func main() {
 
 			f := (r.f).(*os.File)
 
-			//log.Println(f)
-
 			defer f.Close()
 
 		}
