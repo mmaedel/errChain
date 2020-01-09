@@ -73,7 +73,7 @@ func main() {
 
 	for i, result := range errChain {
 
-		if err := result.err; err != nil {
+		if result.err != nil {
 
 			log.Println(i, result.err)
 
